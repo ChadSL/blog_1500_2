@@ -1,3 +1,17 @@
-body {
+h1 {
     color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    
+}
+
+h2 {
+    font-style:italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img:hover {
+  transform:scale(2.5,4);
+
 }

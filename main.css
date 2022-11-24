@@ -57,4 +57,10 @@ img {
 
 article {
     text-align: center;
+    padding: 10px;
+}
+
+hr.rounded {
+    color: red;
+    border-top: 3px solid;
 }

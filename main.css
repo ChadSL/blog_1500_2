@@ -2,45 +2,51 @@ body {
     background-color: royalblue;
 }
 
+header {
+    margin: 10px;
+    text-align: center;
+}
+
 main {
     background-image: url(images/aquabg.png);
     width: 986px;
-    height: auto;
-    margin: 10px auto 10px auto;
+    height: 100%;
     padding: 10px 50px;
+    outline-style: solid;
+    outline-width: 2px;
+    align-items: center;
+    margin: 0 0 0 160px;
 }
 
+.logo {
+    width: 200px;
+}
 
+@font-face {
+    font-family: NEON;
+    src: url(/fonts/Neon\ Rave.ttf)
+}
+
+@font-face {
+    font-family: CV;
+    src: url(/fonts/coolvetica\ rg.otf)
+}
 
 h1 {
-    color: #ff6600fe;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    font-style: oblique;
-    outline-style:solid;
-    padding: 10px;
-    outline-color: red;
-    outline-width: 5px;
+    font-style:italic;
+    font-family: "NEON";
     text-align: center;
-    background-color: #162e48;
-    width: 300px;
-    margin: 30px auto auto auto;
+    color: darkred;
 }
 
 h2 {
-    font-style:italic;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-h3 {
     color: rgb(186, 44, 44);
     font-size: 12px;
 }
 
 
 p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:"CV"
 }
 
 .img1:hover {
